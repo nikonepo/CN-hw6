@@ -63,9 +63,9 @@ func main() {
         }
 
         if checkPacket(httpData, rules) {
-            nf.SetVerdict(id, nfqueue.NfAccept)
-        } else {
             nf.SetVerdict(id, nfqueue.NfDrop)
+        } else {
+            nf.SetVerdict(id, nfqueue.NfAccept)
         }
 
         return 0
