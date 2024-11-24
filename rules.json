@@ -1,0 +1,18 @@
+[
+  {
+    "Type": "delete",
+    "Host": "google.com",
+    "Method": "GET",
+    "UserAgent": "curl",
+    "PathPrefix": "/api",
+    "ContentLen": 1024
+  },
+  {
+    "Type": "delete",
+    "Host": "",
+    "Method": "PUT",
+    "UserAgent": "",
+    "PathPrefix": "",
+    "ContentLen": 0
+  }
+]
